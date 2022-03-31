@@ -72,16 +72,6 @@ public class Airline {
 		str = str + flightNumber + ": " + destination + ", " + weekDay + ", " + departureTime;
 		return str;
 	}
-	
-	public static Airline getAirline (int flightNumber, String destination, String weekDay, String departureTime) {
-		Airline airline = new Airline ();
-		
-		airline.flightNumber = flightNumber;
-		airline.destination = destination;
-		airline.weekDay = weekDay;
-		airline.departureTime = departureTime;
-		
-		return airline;
-	}
+
 
 }
